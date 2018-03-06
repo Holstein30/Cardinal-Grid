@@ -1,0 +1,191 @@
+/* * {
+  border: 2px solid #000;
+} */
+
+/* Container Margin */
+.container {
+  margin: auto 1em;
+}
+
+/* Header */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 50em;
+  background-image: url("../images/pic-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-head {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column: 1/2;
+  justify-items: end;
+}
+
+.img-head img {
+  grid-row: 2;
+}
+
+.text-head {
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+  font-size: 45px;
+  color: #fff;
+}
+
+/* Section - Info */
+
+.info {
+  margin: auto 3em;
+  background-color: #ccc;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+.info-col p {
+  text-align: justify;
+  padding-left: 2.5em;
+}
+
+.info-col h3 {
+  padding-left: 2em;
+}
+
+.info-col img {
+  float: left;
+  padding-top: 1em;
+}
+
+/* Section - Clients */
+
+.clients {
+  margin: auto 3em;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+.client-blurb {
+  background-color: #444;
+  color: #fff;
+  grid-column: 1/3;
+}
+
+.client-blurb p {
+  margin-left: 3em;
+}
+
+.client-blurb h3 {
+  margin-left: 2.5em;
+}
+
+.logo {
+  justify-self: center;
+  align-self: center;
+}
+
+/* Section - Client Focused */
+
+/* Purell/Gojo */
+
+.Purell {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../images/pic-gojo-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gojo-img {
+  justify-self: end;
+}
+
+.gojo-txt {
+  justify-self: start;
+  align-self: center;
+}
+
+/* Fifth-Third */
+
+.Fifth-Third {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../images/pic-fifththird-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fifththird-txt {
+  justify-self: center;
+  align-self: center;
+}
+
+/* Christ Hospital */
+
+.Christ-Hospital {
+  display: grid;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+  background-image: url("../images/pic-chhn-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chhn-txt {
+  justify-self: start;
+  align-self: center;
+}
+
+/* Section - Connect */
+
+.connect {
+  display: grid;
+  margin: auto 3em;
+  grid-gap: 2em;
+  grid-template-columns: 1fr 1fr;
+}
+
+form {
+  justify-self: end;
+  align-self: center;
+}
+
+.sidebar {
+  justify-self: start;
+  align-self: center;
+}
+
+/* Footer */
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  background-color: #aaa;
+}
+
+footer p {
+  margin: 3em auto;
+  width: 95%;
+}
+
+footer span {
+  float: right;
+}
+
+footer img {
+  margin: auto 1em;
+}
+
+.last-img {
+  margin-right: 4em;
+}
