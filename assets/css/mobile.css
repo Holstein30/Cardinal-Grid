@@ -1,0 +1,66 @@
+/* Global */
+* {
+  text-align: center;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero */
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: #fff;
+  height: 350px;
+  margin: 0.1rem;
+}
+
+.hero-img {
+  background-image: url("../images/pic-hero.png");
+  background-repeat: no-repeat;
+  background-position: 70% 20%;
+  background-size: 240%;
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.img-head {
+  align-self: center;
+}
+
+/* Info */
+
+.info-bg {
+  background-color: #eee;
+  padding-bottom: 5rem;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.info-col {
+  margin: 2rem auto;
+}
+
+.info-col img,
+.info-col h3,
+.info-col p {
+  margin: 0.4rem auto;
+}
+
+/* Clients */
+
+.clients {
+  position: relatvie;
+}
+
+.client-blurb {
+  background-color: #373d47;
+  margin: 0 1rem;
+  padding: 2.5rem 0;
+  color: #fff;
+  position: relative;
+  bottom: 6rem;
+}
