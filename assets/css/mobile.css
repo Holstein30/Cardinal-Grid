@@ -52,10 +52,6 @@ header {
 
 /* Clients */
 
-.clients {
-  position: relatvie;
-}
-
 .client-blurb {
   background-color: #373d47;
   margin: 0 1rem;
@@ -63,4 +59,74 @@ header {
   color: #fff;
   position: relative;
   bottom: 6rem;
+}
+
+.client-blurb h3 {
+  padding-bottom: 1rem;
+}
+
+.client-blurb h3,
+.client-blurb p {
+  font-weight: 300;
+}
+
+/* Clients-Logos */
+
+.logos {
+  position: relative;
+  bottom: 6rem;
+}
+
+.logo {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #e7e8ea;
+}
+
+/* Client-Focused */
+
+.Purell {
+  background-color: #e6e6e6;
+  position: relative;
+  bottom: 6rem;
+}
+
+.gojo-img {
+  padding: 2rem;
+  background-image: url("../images/pic-gojo-bg.png");
+  background-repeat: no-repeat;
+  background-position: 63% 60%;
+  background-size: 180%;
+}
+
+.gojo-img img {
+  width: 80vw;
+}
+
+.gojo-txt,
+.gojo-txt h3,
+.gojo-txt h6,
+.gojo-txt p,
+.gojo-txt button {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.gojo-txt h3 {
+  font-weight: 800;
+  padding-bottom: 0.1rem;
+}
+
+.gojo-txt p {
+  margin: 1.5rem 1rem;
+}
+
+.gojo-txt button {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #307ecf;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 3px;
 }
