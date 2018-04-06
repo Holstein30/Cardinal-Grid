@@ -242,3 +242,86 @@ header {
   border-radius: 2px;
   margin: 2rem 1rem;
 }
+
+/* Connect */
+
+.connect {
+  background-color: #eee;
+  position: relative;
+  bottom: 6rem;
+}
+
+.connect-info h3 {
+  padding-top: 2rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.connect-info p {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.connect-info form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+
+.connect-info form > input {
+  border: 1px solid #bababa;
+  border-radius: 2px;
+  text-align: left;
+  padding: 1rem 1rem;
+}
+
+#connect-message {
+  height: 8rem;
+}
+
+#connect-submit {
+  width: 30%;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #307ecf;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.connect-info hr {
+  width: 30%;
+  margin: 0.8rem auto;
+  color: rgba(233, 233, 233, 0.3);
+}
+
+.sidebar {
+  margin-top: 2rem;
+}
+
+.sidebar h4 {
+  padding-bottom: 0.7rem;
+}
+
+#sidebar-h4 {
+  padding-top: 2rem;
+}
+
+.sidebar img {
+  height: 100px;
+  width: 100px;
+  margin: 2rem auto 1rem auto;
+  border-radius: 3px;
+}
+
+.sidebar a {
+  display: block;
+  padding-bottom: 2rem;
+}
+
+/* Footer */
