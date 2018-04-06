@@ -325,3 +325,18 @@ header {
 }
 
 /* Footer */
+
+footer {
+  background-color: #d8d8d8;
+  position: relative;
+  bottom: 6rem;
+  padding: 2rem;
+}
+
+footer p {
+  padding-bottom: 1rem;
+}
+
+footer div > img {
+  padding: 1rem;
+}
