@@ -1,191 +1,536 @@
-/* * {
-  border: 2px solid #000;
-} */
-
-/* Container Margin */
-.container {
-  margin: auto 1em;
+/* Global */
+* {
+  text-align: center;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0 0.2px;
 }
 
-/* Header */
+/* Hero */
 
 header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: auto 50em;
+  color: #fff;
+  height: 350px;
+  margin-top: 1px;
+}
+
+.hero-img {
   background-image: url("../images/pic-hero.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 70% 20%;
+  background-size: 240%;
+  display: grid;
+  grid-template-rows: auto auto;
 }
 
 .img-head {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-column: 1/2;
-  justify-items: end;
-}
-
-.img-head img {
-  grid-row: 2;
-}
-
-.text-head {
-  justify-self: center;
   align-self: center;
-  text-align: center;
-  font-size: 45px;
-  color: #fff;
 }
 
-/* Section - Info */
+/* Info */
+
+.info-bg {
+  background-color: #eee;
+  padding-bottom: 5rem;
+}
 
 .info {
-  margin: auto 3em;
-  background-color: #ccc;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1em;
+  padding: 1rem;
 }
 
+.info-col {
+  margin: 2rem auto;
+}
+
+.info-col img,
+.info-col h3,
 .info-col p {
-  text-align: justify;
-  padding-left: 2.5em;
+  margin: 0.4rem auto;
 }
 
-.info-col h3 {
-  padding-left: 2em;
-}
-
-.info-col img {
-  float: left;
-  padding-top: 1em;
-}
-
-/* Section - Clients */
-
-.clients {
-  margin: auto 3em;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 1em;
-}
+/* Clients */
 
 .client-blurb {
-  background-color: #444;
+  background-color: #373d47;
+  margin: 0 1rem;
+  padding: 2.5rem 0;
   color: #fff;
-  grid-column: 1/3;
-}
-
-.client-blurb p {
-  margin-left: 3em;
+  position: relative;
+  bottom: 6rem;
 }
 
 .client-blurb h3 {
-  margin-left: 2.5em;
+  padding-bottom: 1rem;
+}
+
+.client-blurb h3,
+.client-blurb p {
+  font-weight: 300;
+}
+
+/* Clients-Logos */
+
+.logos {
+  position: relative;
+  bottom: 6rem;
 }
 
 .logo {
-  justify-self: center;
-  align-self: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #e7e8ea;
+  height: 50px;
 }
 
-/* Section - Client Focused */
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+}
 
-/* Purell/Gojo */
+#rackroom img {
+  max-width: 120%;
+  max-height: 120%;
+}
+
+/* Client-Focused */
+
+/* Purell */
 
 .Purell {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: 1fr 1fr;
-  background-image: url("../images/pic-gojo-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #e6e6e6;
+  position: relative;
+  bottom: 6rem;
 }
 
 .gojo-img {
-  justify-self: end;
+  padding: 2rem;
+  background-image: url("../images/pic-gojo-bg.png");
+  background-repeat: no-repeat;
+  background-position: 63% 60%;
+  background-size: 180%;
 }
 
-.gojo-txt {
-  justify-self: start;
-  align-self: center;
+.gojo-img img {
+  width: 80vw;
 }
 
-/* Fifth-Third */
+.gojo-txt,
+.gojo-txt h3,
+.gojo-txt h6,
+.gojo-txt p,
+.gojo-txt button {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.gojo-txt h3 {
+  font-weight: 800;
+  padding-bottom: 0.1rem;
+}
+
+.gojo-txt p {
+  margin: 1.5rem 1rem;
+}
+
+.gojo-txt button {
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #307ecf;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2px;
+}
+
+/* Fifth Third Bank */
 
 .Fifth-Third {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: 1fr 1fr;
   background-image: url("../images/pic-fifththird-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  bottom: 6rem;
+}
+
+.fifththird-img img {
+  max-height: 100%;
+  max-width: 90%;
+  padding-top: 2rem;
 }
 
 .fifththird-txt {
-  justify-self: center;
-  align-self: center;
+  max-width: 65%;
+  margin: 0 auto;
+  padding: 1rem;
+  color: #fff;
+}
+
+.fifththird-txt h3 {
+  padding-bottom: 0.2rem;
+}
+
+.fifththird-txt h6,
+.fifththird-txt p {
+  padding-bottom: 1.3rem;
+  font-weight: 400;
+}
+
+.fifththird-txt button {
+  margin: 1.3rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 2px;
 }
 
 /* Christ Hospital */
 
 .Christ-Hospital {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-columns: 1fr 1fr;
   background-image: url("../images/pic-chhn-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 85%;
+  position: relative;
+  bottom: 6rem;
+  color: #fff;
 }
 
-.chhn-txt {
-  justify-self: start;
-  align-self: center;
+.chhn-img {
+  overflow: hidden;
 }
 
-/* Section - Connect */
+.chhn-img img {
+  max-height: 100%;
+  max-width: 90%;
+  padding-top: 2rem;
+  position: relative;
+  left: 4rem;
+  margin-bottom: 1rem;
+}
+
+.chhn-txt,
+.chhn-txt h3,
+.chhn-txt h6,
+.chhn-txt p,
+.chhn-txt button {
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.chhn-txt h3 {
+  max-width: 70%;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.chhn-txt h6 {
+  margin: 0.5rem 1rem 1rem 1rem;
+  font-weight: 300;
+}
+
+.chhn-txt p {
+  max-width: 75%;
+}
+
+.chhn-txt button {
+  padding: 0.6rem 1rem;
+  border: none;
+  font-weight: 600;
+  border-radius: 2px;
+  margin: 2rem 1rem;
+}
+
+/* Connect */
 
 .connect {
-  display: grid;
-  margin: auto 3em;
-  grid-gap: 2em;
-  grid-template-columns: 1fr 1fr;
+  background-color: #eee;
+  position: relative;
+  bottom: 6rem;
 }
 
-form {
-  justify-self: end;
-  align-self: center;
+.connect-info h3 {
+  padding-top: 2rem;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.connect-info p {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.connect-info form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: 0 auto;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+
+.connect-info form > input {
+  border: 1px solid #bababa;
+  border-radius: 2px;
+  text-align: left;
+  padding: 1rem 1rem;
+}
+
+#connect-message {
+  height: 8rem;
+}
+
+#connect-submit {
+  width: 30%;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #307ecf;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.connect-info hr {
+  width: 30%;
+  margin: 0.8rem auto;
+  color: rgba(233, 233, 233, 0.3);
 }
 
 .sidebar {
-  justify-self: start;
-  align-self: center;
+  margin-top: 2rem;
+}
+
+.sidebar h4 {
+  padding-bottom: 0.7rem;
+}
+
+#sidebar-h4 {
+  padding-top: 2rem;
+}
+
+.sidebar img {
+  height: 100px;
+  width: 100px;
+  margin: 2rem auto 1rem auto;
+  border-radius: 3px;
+}
+
+.sidebar a {
+  display: block;
+  padding-bottom: 2rem;
 }
 
 /* Footer */
 
 footer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  background-color: #aaa;
+  background-color: #d8d8d8;
+  position: relative;
+  bottom: 6rem;
+  padding: 2rem;
 }
 
 footer p {
-  margin: 3em auto;
-  width: 95%;
+  padding-bottom: 1rem;
 }
 
-footer span {
-  float: right;
+footer div > img {
+  padding: 1rem;
 }
 
-footer img {
-  margin: auto 1em;
-}
+@media only screen and (min-width: 940px) {
+  /* * {
+  border: 2px solid #000;
+} */
 
-.last-img {
-  margin-right: 4em;
+  /* Container Margin */
+  .container {
+    margin: auto 1em;
+  }
+
+  /* Header */
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 50em;
+    background-image: url("../images/pic-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img-head {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-column: 1/2;
+    justify-items: end;
+  }
+
+  .img-head img {
+    grid-row: 2;
+  }
+
+  .text-head {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+  }
+
+  /* Section - Info */
+
+  .info {
+    margin: auto 3em;
+    background-color: #ccc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+  }
+
+  .info-col p {
+    text-align: justify;
+    padding-left: 2.5em;
+  }
+
+  .info-col h3 {
+    padding-left: 2em;
+  }
+
+  .info-col img {
+    float: left;
+    padding-top: 1em;
+  }
+
+  /* Section - Clients */
+
+  .clients {
+    margin: auto 3em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 1em;
+  }
+
+  .client-blurb {
+    background-color: #444;
+    color: #fff;
+    grid-column: 1/3;
+  }
+
+  .client-blurb p {
+    margin-left: 3em;
+  }
+
+  .client-blurb h3 {
+    margin-left: 2.5em;
+  }
+
+  .logo {
+    justify-self: center;
+    align-self: center;
+  }
+
+  /* Section - Client Focused */
+
+  /* Purell/Gojo */
+
+  .Purell {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../images/pic-gojo-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .gojo-img {
+    justify-self: end;
+  }
+
+  .gojo-txt {
+    justify-self: start;
+    align-self: center;
+  }
+
+  /* Fifth-Third */
+
+  .Fifth-Third {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../images/pic-fifththird-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .fifththird-txt {
+    justify-self: center;
+    align-self: center;
+  }
+
+  /* Christ Hospital */
+
+  .Christ-Hospital {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+    background-image: url("../images/pic-chhn-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .chhn-txt {
+    justify-self: start;
+    align-self: center;
+  }
+
+  /* Section - Connect */
+
+  .connect {
+    display: grid;
+    margin: auto 3em;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  form {
+    justify-self: end;
+    align-self: center;
+  }
+
+  .sidebar {
+    justify-self: start;
+    align-self: center;
+  }
+
+  /* Footer */
+
+  footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #aaa;
+  }
+
+  footer p {
+    margin: 3em auto;
+    width: 95%;
+  }
+
+  footer span {
+    float: right;
+  }
+
+  footer img {
+    margin: auto 1em;
+  }
+
+  .last-img {
+    margin-right: 4em;
+  }
 }

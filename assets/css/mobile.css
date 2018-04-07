@@ -1,342 +1,344 @@
-/* Global */
-* {
-  text-align: center;
-  line-height: 1.5;
-  padding: 0;
-  margin: 0 0.2px;
-}
+@media (min-width: 940px) {
+  /* Global */
+  * {
+    text-align: center;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 0.2px;
+  }
 
-/* Hero */
+  /* Hero */
 
-header {
-  display: grid;
-  grid-template-columns: 1fr;
-  color: #fff;
-  height: 350px;
-  margin-top: 1px;
-}
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: #fff;
+    height: 350px;
+    margin-top: 1px;
+  }
 
-.hero-img {
-  background-image: url("../images/pic-hero.png");
-  background-repeat: no-repeat;
-  background-position: 70% 20%;
-  background-size: 240%;
-  display: grid;
-  grid-template-rows: auto auto;
-}
+  .hero-img {
+    background-image: url("../images/pic-hero.png");
+    background-repeat: no-repeat;
+    background-position: 70% 20%;
+    background-size: 240%;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
 
-.img-head {
-  align-self: center;
-}
+  .img-head {
+    align-self: center;
+  }
 
-/* Info */
+  /* Info */
 
-.info-bg {
-  background-color: #eee;
-  padding-bottom: 5rem;
-}
+  .info-bg {
+    background-color: #eee;
+    padding-bottom: 5rem;
+  }
 
-.info {
-  padding: 1rem;
-}
+  .info {
+    padding: 1rem;
+  }
 
-.info-col {
-  margin: 2rem auto;
-}
+  .info-col {
+    margin: 2rem auto;
+  }
 
-.info-col img,
-.info-col h3,
-.info-col p {
-  margin: 0.4rem auto;
-}
+  .info-col img,
+  .info-col h3,
+  .info-col p {
+    margin: 0.4rem auto;
+  }
 
-/* Clients */
+  /* Clients */
 
-.client-blurb {
-  background-color: #373d47;
-  margin: 0 1rem;
-  padding: 2.5rem 0;
-  color: #fff;
-  position: relative;
-  bottom: 6rem;
-}
+  .client-blurb {
+    background-color: #373d47;
+    margin: 0 1rem;
+    padding: 2.5rem 0;
+    color: #fff;
+    position: relative;
+    bottom: 6rem;
+  }
 
-.client-blurb h3 {
-  padding-bottom: 1rem;
-}
+  .client-blurb h3 {
+    padding-bottom: 1rem;
+  }
 
-.client-blurb h3,
-.client-blurb p {
-  font-weight: 300;
-}
+  .client-blurb h3,
+  .client-blurb p {
+    font-weight: 300;
+  }
 
-/* Clients-Logos */
+  /* Clients-Logos */
 
-.logos {
-  position: relative;
-  bottom: 6rem;
-}
+  .logos {
+    position: relative;
+    bottom: 6rem;
+  }
 
-.logo {
-  margin: 1rem;
-  padding: 1rem;
-  border: 2px solid #e7e8ea;
-  height: 50px;
-}
+  .logo {
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #e7e8ea;
+    height: 50px;
+  }
 
-.logo img {
-  max-width: 100%;
-  max-height: 100%;
-}
+  .logo img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-#rackroom img {
-  max-width: 120%;
-  max-height: 120%;
-}
+  #rackroom img {
+    max-width: 120%;
+    max-height: 120%;
+  }
 
-/* Client-Focused */
+  /* Client-Focused */
 
-/* Purell */
+  /* Purell */
 
-.Purell {
-  background-color: #e6e6e6;
-  position: relative;
-  bottom: 6rem;
-}
+  .Purell {
+    background-color: #e6e6e6;
+    position: relative;
+    bottom: 6rem;
+  }
 
-.gojo-img {
-  padding: 2rem;
-  background-image: url("../images/pic-gojo-bg.png");
-  background-repeat: no-repeat;
-  background-position: 63% 60%;
-  background-size: 180%;
-}
+  .gojo-img {
+    padding: 2rem;
+    background-image: url("../images/pic-gojo-bg.png");
+    background-repeat: no-repeat;
+    background-position: 63% 60%;
+    background-size: 180%;
+  }
 
-.gojo-img img {
-  width: 80vw;
-}
+  .gojo-img img {
+    width: 80vw;
+  }
 
-.gojo-txt,
-.gojo-txt h3,
-.gojo-txt h6,
-.gojo-txt p,
-.gojo-txt button {
-  margin-left: 1rem;
-  text-align: left;
-}
+  .gojo-txt,
+  .gojo-txt h3,
+  .gojo-txt h6,
+  .gojo-txt p,
+  .gojo-txt button {
+    margin-left: 1rem;
+    text-align: left;
+  }
 
-.gojo-txt h3 {
-  font-weight: 800;
-  padding-bottom: 0.1rem;
-}
+  .gojo-txt h3 {
+    font-weight: 800;
+    padding-bottom: 0.1rem;
+  }
 
-.gojo-txt p {
-  margin: 1.5rem 1rem;
-}
+  .gojo-txt p {
+    margin: 1.5rem 1rem;
+  }
 
-.gojo-txt button {
-  margin-bottom: 1.5rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #307ecf;
-  color: #fff;
-  font-weight: 600;
-  border-radius: 2px;
-}
+  .gojo-txt button {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #307ecf;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+  }
 
-/* Fifth Third Bank */
+  /* Fifth Third Bank */
 
-.Fifth-Third {
-  background-image: url("../images/pic-fifththird-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  bottom: 6rem;
-}
+  .Fifth-Third {
+    background-image: url("../images/pic-fifththird-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom: 6rem;
+  }
 
-.fifththird-img img {
-  max-height: 100%;
-  max-width: 90%;
-  padding-top: 2rem;
-}
+  .fifththird-img img {
+    max-height: 100%;
+    max-width: 90%;
+    padding-top: 2rem;
+  }
 
-.fifththird-txt {
-  max-width: 65%;
-  margin: 0 auto;
-  padding: 1rem;
-  color: #fff;
-}
+  .fifththird-txt {
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 1rem;
+    color: #fff;
+  }
 
-.fifththird-txt h3 {
-  padding-bottom: 0.2rem;
-}
+  .fifththird-txt h3 {
+    padding-bottom: 0.2rem;
+  }
 
-.fifththird-txt h6,
-.fifththird-txt p {
-  padding-bottom: 1.3rem;
-  font-weight: 400;
-}
+  .fifththird-txt h6,
+  .fifththird-txt p {
+    padding-bottom: 1.3rem;
+    font-weight: 400;
+  }
 
-.fifththird-txt button {
-  margin: 1.3rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  font-weight: 600;
-  border-radius: 2px;
-}
+  .fifththird-txt button {
+    margin: 1.3rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+  }
 
-/* Christ Hospital */
+  /* Christ Hospital */
 
-.Christ-Hospital {
-  background-image: url("../images/pic-chhn-bg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 85%;
-  position: relative;
-  bottom: 6rem;
-  color: #fff;
-}
+  .Christ-Hospital {
+    background-image: url("../images/pic-chhn-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 85%;
+    position: relative;
+    bottom: 6rem;
+    color: #fff;
+  }
 
-.chhn-img {
-  overflow: hidden;
-}
+  .chhn-img {
+    overflow: hidden;
+  }
 
-.chhn-img img {
-  max-height: 100%;
-  max-width: 90%;
-  padding-top: 2rem;
-  position: relative;
-  left: 4rem;
-  margin-bottom: 1rem;
-}
+  .chhn-img img {
+    max-height: 100%;
+    max-width: 90%;
+    padding-top: 2rem;
+    position: relative;
+    left: 4rem;
+    margin-bottom: 1rem;
+  }
 
-.chhn-txt,
-.chhn-txt h3,
-.chhn-txt h6,
-.chhn-txt p,
-.chhn-txt button {
-  margin-left: 1rem;
-  text-align: left;
-}
+  .chhn-txt,
+  .chhn-txt h3,
+  .chhn-txt h6,
+  .chhn-txt p,
+  .chhn-txt button {
+    margin-left: 1rem;
+    text-align: left;
+  }
 
-.chhn-txt h3 {
-  max-width: 70%;
-  line-height: 1.5rem;
-  font-weight: 700;
-  font-size: 22px;
-}
+  .chhn-txt h3 {
+    max-width: 70%;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-size: 22px;
+  }
 
-.chhn-txt h6 {
-  margin: 0.5rem 1rem 1rem 1rem;
-  font-weight: 300;
-}
+  .chhn-txt h6 {
+    margin: 0.5rem 1rem 1rem 1rem;
+    font-weight: 300;
+  }
 
-.chhn-txt p {
-  max-width: 75%;
-}
+  .chhn-txt p {
+    max-width: 75%;
+  }
 
-.chhn-txt button {
-  padding: 0.6rem 1rem;
-  border: none;
-  font-weight: 600;
-  border-radius: 2px;
-  margin: 2rem 1rem;
-}
+  .chhn-txt button {
+    padding: 0.6rem 1rem;
+    border: none;
+    font-weight: 600;
+    border-radius: 2px;
+    margin: 2rem 1rem;
+  }
 
-/* Connect */
+  /* Connect */
 
-.connect {
-  background-color: #eee;
-  position: relative;
-  bottom: 6rem;
-}
+  .connect {
+    background-color: #eee;
+    position: relative;
+    bottom: 6rem;
+  }
 
-.connect-info h3 {
-  padding-top: 2rem;
-  font-size: 25px;
-  font-weight: 600;
-}
+  .connect-info h3 {
+    padding-top: 2rem;
+    font-size: 25px;
+    font-weight: 600;
+  }
 
-.connect-info p {
-  width: 65%;
-  margin: 0 auto;
-}
+  .connect-info p {
+    width: 65%;
+    margin: 0 auto;
+  }
 
-.connect-info form {
-  display: grid;
-  grid-template-columns: 1fr;
-  width: 90%;
-  margin: 0 auto;
-  grid-gap: 0.5rem;
-  padding: 1rem;
-}
+  .connect-info form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 0.5rem;
+    padding: 1rem;
+  }
 
-.connect-info form > input {
-  border: 1px solid #bababa;
-  border-radius: 2px;
-  text-align: left;
-  padding: 1rem 1rem;
-}
+  .connect-info form > input {
+    border: 1px solid #bababa;
+    border-radius: 2px;
+    text-align: left;
+    padding: 1rem 1rem;
+  }
 
-#connect-message {
-  height: 8rem;
-}
+  #connect-message {
+    height: 8rem;
+  }
 
-#connect-submit {
-  width: 30%;
-  margin: 1rem auto;
-  padding: 0.5rem 1rem;
-  border: none;
-  background-color: #307ecf;
-  color: #fff;
-  font-weight: 600;
-  border-radius: 2px;
-  text-align: center;
-}
+  #connect-submit {
+    width: 30%;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #307ecf;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    text-align: center;
+  }
 
-.connect-info hr {
-  width: 30%;
-  margin: 0.8rem auto;
-  color: rgba(233, 233, 233, 0.3);
-}
+  .connect-info hr {
+    width: 30%;
+    margin: 0.8rem auto;
+    color: rgba(233, 233, 233, 0.3);
+  }
 
-.sidebar {
-  margin-top: 2rem;
-}
+  .sidebar {
+    margin-top: 2rem;
+  }
 
-.sidebar h4 {
-  padding-bottom: 0.7rem;
-}
+  .sidebar h4 {
+    padding-bottom: 0.7rem;
+  }
 
-#sidebar-h4 {
-  padding-top: 2rem;
-}
+  #sidebar-h4 {
+    padding-top: 2rem;
+  }
 
-.sidebar img {
-  height: 100px;
-  width: 100px;
-  margin: 2rem auto 1rem auto;
-  border-radius: 3px;
-}
+  .sidebar img {
+    height: 100px;
+    width: 100px;
+    margin: 2rem auto 1rem auto;
+    border-radius: 3px;
+  }
 
-.sidebar a {
-  display: block;
-  padding-bottom: 2rem;
-}
+  .sidebar a {
+    display: block;
+    padding-bottom: 2rem;
+  }
 
-/* Footer */
+  /* Footer */
 
-footer {
-  background-color: #d8d8d8;
-  position: relative;
-  bottom: 6rem;
-  padding: 2rem;
-}
+  footer {
+    background-color: #d8d8d8;
+    position: relative;
+    bottom: 6rem;
+    padding: 2rem;
+  }
 
-footer p {
-  padding-bottom: 1rem;
-}
+  footer p {
+    padding-bottom: 1rem;
+  }
 
-footer div > img {
-  padding: 1rem;
+  footer div > img {
+    padding: 1rem;
+  }
 }
