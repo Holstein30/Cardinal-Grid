@@ -55,6 +55,7 @@ header {
 .info-bg {
   background-color: #eee;
   padding-bottom: 5rem;
+  margin-bottom: -6rem;
 }
 
 .info {
@@ -78,9 +79,6 @@ header {
   margin: 0 1rem;
   padding: 2.5rem 0;
   color: #fff;
-  position: relative;
-  bottom: 6rem;
-  margin-bottom: -6rem;
 }
 
 .client-blurb h3 {
@@ -94,11 +92,6 @@ header {
 }
 
 /* Clients-Logos */
-
-/* .logos {
-  position: relative;
-  bottom: 6rem;
-} */
 
 .logo {
   margin: 1rem;
