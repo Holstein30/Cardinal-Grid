@@ -363,6 +363,7 @@ footer div > img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
+    position: relative;
   }
 
   .hero-img {
@@ -425,7 +426,6 @@ footer div > img {
     margin: auto 9em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
   }
 
   .client-blurb {
@@ -435,19 +435,24 @@ footer div > img {
   }
 
   .client-blurb h3 {
-    margin-left: 2em;
+    padding-left: 3rem;
     text-align: justify;
     font-size: 2rem;
   }
 
   .client-blurb p {
-    margin-left: 4em;
+    padding-left: 3rem;
     text-align: justify;
+    font-size: 1.5rem;
+    width: 63%;
   }
 
   .logo {
     justify-self: center;
     align-self: center;
+    padding: 10rem 6rem;
+    background-color: #fff;
+    min-width: 200px;
   }
 
   /* Section - Client Focused */
