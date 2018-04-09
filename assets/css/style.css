@@ -1,4 +1,4 @@
-/* Global */
+/* Global Mobile */
 * {
   text-align: center;
   line-height: 1.5;
@@ -342,13 +342,12 @@ footer div > img {
 }
 
 @media only screen and (min-width: 940px) {
-  /* * {
-  border: 2px solid #000;
-} */
-
-  /* Container Margin */
-  .container {
-    margin: auto 1em;
+  /* Global Desktop */
+  * {
+    text-align: center;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0 0.2px;
   }
 
   /* Header */
@@ -356,28 +355,28 @@ footer div > img {
   header {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 50em;
+    grid-template-rows: 1fr;
+    height: 100vh;
+  }
+
+  .hero-img {
     background-image: url("../images/pic-hero.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
   }
 
   .img-head {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-column: 1/2;
-    justify-items: end;
+    position: relative;
+    bottom: 7rem;
+    right: 49rem;
   }
 
   .img-head img {
-    grid-row: 2;
+    height: 3rem;
   }
 
   .text-head {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
     font-size: 45px;
     color: #fff;
   }
