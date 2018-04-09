@@ -350,7 +350,7 @@ footer div > img {
     margin: 0 0.2px;
   }
 
-  /* Header */
+  /* Hero */
 
   header {
     display: grid;
@@ -381,31 +381,39 @@ footer div > img {
     color: #fff;
   }
 
-  /* Section - Info */
+  /* Info */
+
+  .info-bg {
+    background-color: #eee;
+    padding-bottom: 5rem;
+  }
 
   .info {
-    margin: auto 3em;
-    background-color: #ccc;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+  }
+
+  .info-col {
+    position: relative;
+    bottom: 3rem;
+  }
+
+  .info-col h3 {
+    text-align: justify;
+    font-size: 1.5rem;
   }
 
   .info-col p {
     text-align: justify;
-    padding-left: 2.5em;
-  }
-
-  .info-col h3 {
-    padding-left: 2em;
   }
 
   .info-col img {
-    float: left;
-    padding-top: 1em;
+    position: relative;
+    top: 3.5rem;
+    right: 8.5rem;
   }
 
-  /* Section - Clients */
+  /* Clients */
 
   .clients {
     margin: auto 3em;
