@@ -80,6 +80,7 @@ header {
   color: #fff;
   position: relative;
   bottom: 6rem;
+  margin-bottom: -6rem;
 }
 
 .client-blurb h3 {
@@ -89,14 +90,15 @@ header {
 .client-blurb h3,
 .client-blurb p {
   font-weight: 300;
+  margin: 0 1rem;
 }
 
 /* Clients-Logos */
 
-.logos {
+/* .logos {
   position: relative;
   bottom: 6rem;
-}
+} */
 
 .logo {
   margin: 1rem;
@@ -121,8 +123,6 @@ header {
 
 .Purell {
   background-color: #e6e6e6;
-  position: relative;
-  bottom: 6rem;
 }
 
 .gojo-img {
@@ -171,8 +171,6 @@ header {
   background-image: url("../images/pic-fifththird-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  bottom: 6rem;
 }
 
 .fifththird-img img {
@@ -213,8 +211,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 85%;
-  position: relative;
-  bottom: 6rem;
   color: #fff;
 }
 
@@ -268,8 +264,6 @@ header {
 
 .connect {
   background-color: #eee;
-  position: relative;
-  bottom: 6rem;
 }
 
 .connect-info h3 {
@@ -349,8 +343,6 @@ header {
 
 footer {
   background-color: #d8d8d8;
-  position: relative;
-  bottom: 6rem;
   padding: 2rem;
 }
 
