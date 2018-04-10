@@ -663,9 +663,9 @@ footer div > img {
   }
 
   .connect-info {
-    margin-top: 3rem;
+    margin: 5rem 0;
     border-right: 1px solid #ccc;
-    height: 90vh;
+    height: 75%;
   }
 
   hr {
@@ -692,6 +692,7 @@ footer div > img {
 
   .sidebar p {
     max-width: 60%;
+    margin: 0;
   }
 
   .sidebar h4 {
