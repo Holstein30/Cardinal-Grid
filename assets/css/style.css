@@ -84,19 +84,19 @@ header {
 }
 
 .info-col h3 {
-  font-size: 1.3rem;
-  font-weight: 300;
+  min-width: 100%;
+  font-family: Md;
 }
 
 .info-col p {
-  width: 90%;
+  min-width: 50%;
 }
 
 /* Clients */
 
 .client-blurb {
   background-color: #373d47;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
   padding: 2.5rem 0;
   color: #fff;
 }
@@ -165,9 +165,9 @@ header {
 }
 
 .gojo-txt h3 {
-  font-weight: 800;
   padding-bottom: 0.1rem;
   font-size: 1.5rem;
+  font-family: Bd;
 }
 
 .gojo-txt h6 {
@@ -213,7 +213,7 @@ header {
 .fifththird-txt h3 {
   padding-bottom: 0.2rem;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-family: Bd;
 }
 
 .fifththird-txt h6 {
@@ -272,7 +272,7 @@ header {
 .chhn-txt h3 {
   max-width: 90%;
   line-height: 1.8rem;
-  font-weight: 700;
+  font-family: Bd;
   font-size: 1.7rem;
 }
 
@@ -361,6 +361,7 @@ header {
 .sidebar h4 {
   padding-bottom: 0.7rem;
   font-size: 1.1rem;
+  font-family: Md;
 }
 
 #sidebar-h4 {
@@ -377,6 +378,7 @@ header {
 .sidebar a {
   display: block;
   padding-bottom: 2rem;
+  font-family: Bd;
 }
 
 /* Footer */
@@ -652,6 +654,7 @@ footer div > img {
   .chhn-txt h3 {
     font-size: 2rem;
     line-height: 1;
+    max-width: 65%;
   }
 
   /* Section - Connect */
