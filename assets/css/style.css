@@ -413,7 +413,7 @@ footer div > img {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 100vh;
-    position: relative;
+    width: 100vw;
   }
 
   .hero-img {
@@ -421,21 +421,26 @@ footer div > img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
   }
 
   .img-head {
-    position: relative;
-    bottom: 7rem;
-    right: 49rem;
-  }
-
-  .img-head img {
-    height: 3rem;
+    position: absolute;
+    top: 3rem;
+    left: 7rem;
   }
 
   .text-head {
-    font-size: 45px;
+    font-size: 3rem;
     color: #fff;
+    position: relative;
+    top: 50%;
+  }
+
+  .text-head h1 {
+    max-width: 80%;
+    margin: auto;
+    line-height: 1.3;
   }
 
   /* Info */
