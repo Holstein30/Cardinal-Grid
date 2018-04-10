@@ -439,7 +439,7 @@ footer div > img {
   }
 
   .text-head {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #fff;
     position: relative;
     top: 50%;
@@ -460,10 +460,6 @@ footer div > img {
 
   /* Info */
 
-  .info-bg {
-    background-color: #eee;
-  }
-
   .info {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -475,22 +471,24 @@ footer div > img {
   }
 
   .info-col h3 {
+    position: relative;
+    left: 5rem;
     font-size: 1.5rem;
     text-align: left;
-    margin: auto 11rem;
   }
 
   .info-col p {
+    position: relative;
+    left: 5rem;
     text-align: left;
-    max-width: 45%;
     font-size: 1.2rem;
-    margin: 1rem 11rem;
+    max-width: 65%;
+    margin: 0;
   }
 
   .info-col img {
     position: relative;
     top: 3.5rem;
-    right: 9rem;
   }
 
   @supports (-webkit-appearance: none) {
@@ -558,7 +556,7 @@ footer div > img {
   .gojo-img img {
     max-width: 90%;
     position: relative;
-    top: 2.6rem;
+    top: 5rem;
     left: 4rem;
   }
 
@@ -757,5 +755,21 @@ footer div > img {
 
   .last-img {
     margin-right: 3em;
+  }
+}
+
+@media only screen and (min-width: 1450px) {
+  .info-col img {
+    position: relative;
+    top: 3.5rem;
+    right: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .info-col img {
+    position: relative;
+    top: 3.5rem;
+    right: 8rem;
   }
 }
