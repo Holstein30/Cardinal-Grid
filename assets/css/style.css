@@ -445,6 +445,13 @@ footer div > img {
     top: 50%;
   }
 
+  @supports (-webkit-appearance: none) {
+    .text-head {
+      position: relative;
+      top: 40%;
+    }
+  }
+
   .text-head h1 {
     max-width: 80%;
     margin: auto;
@@ -484,6 +491,13 @@ footer div > img {
     position: relative;
     top: 3.5rem;
     right: 9rem;
+  }
+
+  @supports (-webkit-appearance: none) {
+    .info-col img {
+      position: relative;
+      right: 11rem;
+    }
   }
 
   /* Clients */
