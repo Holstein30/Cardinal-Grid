@@ -485,6 +485,20 @@ footer div > img {
     align-self: center;
   }
 
+  .gojo-txt h3,
+  .gojo-txt h6,
+  .gojo-txt p {
+    font-size: 1.2rem;
+  }
+
+  .gojo-txt h3 {
+    font-size: 2.7rem;
+  }
+
+  .gojo-txt p {
+    max-width: 55%;
+  }
+
   /* Fifth-Third */
 
   .Fifth-Third {
@@ -515,7 +529,12 @@ footer div > img {
   .fifththird-txt h6,
   .fifththird-txt p {
     text-align: justify;
-    width: 50%;
+    width: 60%;
+    font-size: 1.2rem;
+  }
+
+  .fifththird-txt h3 {
+    font-size: 2rem;
   }
 
   .fifththird-txt button {
@@ -538,9 +557,34 @@ footer div > img {
     background-size: cover;
   }
 
+  .chhn-img {
+    overflow: hidden;
+  }
+
+  .chhn-img img {
+    min-height: 115%;
+    min-width: 100%;
+    padding-top: 2rem;
+    position: relative;
+    left: -5rem;
+    top: -5.5rem;
+    margin-bottom: 1rem;
+  }
+
   .chhn-txt {
     justify-self: start;
     align-self: center;
+  }
+
+  .chhn-txt h3,
+  .chhn-txt h6,
+  .chhn-txt p {
+    font-size: 1.2rem;
+  }
+
+  .chhn-txt h3 {
+    font-size: 2rem;
+    line-height: 1;
   }
 
   /* Section - Connect */
