@@ -494,11 +494,37 @@ footer div > img {
     background-image: url("../images/pic-fifththird-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+  }
+
+  .fifththird-img {
+    grid-column: 2;
+    overflow: hidden;
   }
 
   .fifththird-txt {
-    justify-self: center;
+    grid-column: 1;
+    grid-row: 1;
     align-self: center;
+    text-align: justify;
+    position: relative;
+    left: 10rem;
+  }
+
+  .fifththird-txt h3,
+  .fifththird-txt h6,
+  .fifththird-txt p {
+    text-align: justify;
+    width: 50%;
+  }
+
+  .fifththird-txt button {
+    margin: 1rem 0;
+  }
+
+  .fifththird-img img {
+    position: relative;
+    top: 9rem;
   }
 
   /* Christ Hospital */
