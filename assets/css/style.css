@@ -48,6 +48,17 @@ header {
 
 .img-head {
   align-self: center;
+  margin-bottom: 2rem;
+}
+
+.text-head {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+}
+
+.text-head h1 {
+  line-height: 2;
 }
 
 /* Info */
@@ -69,7 +80,16 @@ header {
 .info-col img,
 .info-col h3,
 .info-col p {
-  margin: 0.4rem auto;
+  margin: 0.5rem auto;
+}
+
+.info-col h3 {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.info-col p {
+  width: 90%;
 }
 
 /* Clients */
@@ -101,8 +121,13 @@ header {
 }
 
 .logo img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 120%;
+  max-height: 120%;
+}
+
+#skanska {
+  position: relative;
+  top: 1rem;
 }
 
 #rackroom img {
@@ -142,15 +167,21 @@ header {
 .gojo-txt h3 {
   font-weight: 800;
   padding-bottom: 0.1rem;
+  font-size: 1.5rem;
+}
+
+.gojo-txt h6 {
+  letter-spacing: 0.1rem;
 }
 
 .gojo-txt p {
   margin: 1.5rem 1rem;
+  max-width: 80%;
 }
 
 .gojo-txt button {
   margin-bottom: 1.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border: none;
   background-color: #307ecf;
   color: #fff;
@@ -181,17 +212,26 @@ header {
 
 .fifththird-txt h3 {
   padding-bottom: 0.2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.fifththird-txt h6 {
+  letter-spacing: 0.05rem;
 }
 
 .fifththird-txt h6,
 .fifththird-txt p {
   padding-bottom: 1.3rem;
-  font-weight: 400;
+}
+
+.fifththird-txt p {
+  font-size: 0.9rem;
 }
 
 .fifththird-txt button {
   margin: 1.3rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   border: none;
   font-weight: 600;
   border-radius: 2px;
@@ -230,23 +270,23 @@ header {
 }
 
 .chhn-txt h3 {
-  max-width: 70%;
-  line-height: 1.5rem;
+  max-width: 90%;
+  line-height: 1.8rem;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 1.7rem;
 }
 
 .chhn-txt h6 {
-  margin: 0.5rem 1rem 1rem 1rem;
-  font-weight: 300;
+  margin: 0.5rem 1rem 1.5rem 1rem;
+  letter-spacing: 0.1rem;
 }
 
 .chhn-txt p {
-  max-width: 75%;
+  max-width: 80%;
 }
 
 .chhn-txt button {
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 2rem;
   border: none;
   font-weight: 600;
   border-radius: 2px;
@@ -261,13 +301,14 @@ header {
 
 .connect-info h3 {
   padding-top: 2rem;
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 1.5rem;
 }
 
 .connect-info p {
-  width: 65%;
+  max-width: 70%;
   margin: 0 auto;
+  line-height: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 .connect-info form {
@@ -303,7 +344,7 @@ header {
 }
 
 .connect-info hr {
-  width: 30%;
+  width: 40%;
   margin: 0.8rem auto;
   color: rgba(233, 233, 233, 0.3);
 }
@@ -312,8 +353,14 @@ header {
   margin-top: 2rem;
 }
 
+.sidebar p {
+  max-width: 65%;
+  margin: 0 auto;
+}
+
 .sidebar h4 {
   padding-bottom: 0.7rem;
+  font-size: 1.1rem;
 }
 
 #sidebar-h4 {
@@ -336,15 +383,18 @@ header {
 
 footer {
   background-color: #d8d8d8;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem 2rem;
+  color: #555;
 }
 
 footer p {
   padding-bottom: 1rem;
+  font-size: 0.8rem;
+  font-weight: bolder;
 }
 
 footer div > img {
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 @media only screen and (min-width: 940px) {
