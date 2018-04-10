@@ -591,44 +591,83 @@ footer div > img {
 
   .connect {
     display: grid;
-    margin: auto 3em;
     grid-gap: 2em;
     grid-template-columns: 1fr 1fr;
   }
 
+  .connect-info {
+    margin-top: 3rem;
+    border-right: 1px solid #ccc;
+    height: 90vh;
+  }
+
+  hr {
+    display: none;
+  }
+
   form {
-    justify-self: end;
     align-self: center;
+    max-width: 70%;
   }
 
   .sidebar {
     justify-self: start;
+    text-align: justify;
     align-self: center;
+    grid-column: 2;
+    margin: 3rem;
+  }
+
+  .sidebar h4,
+  .sidebar p {
+    text-align: justify;
+  }
+
+  .sidebar p {
+    max-width: 60%;
+  }
+
+  .sidebar h4 {
+    color: #393c5e;
+    margin-top: 1.5rem;
+  }
+
+  .sidebar a {
+    text-align: justify;
+  }
+
+  #phone {
+    color: #393c5e;
+  }
+
+  #connect-submit {
+    margin: 1rem 0;
   }
 
   /* Footer */
 
   footer {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     background-color: #aaa;
   }
 
   footer p {
-    margin: 3em auto;
+    margin: 1em auto;
     width: 95%;
+    text-align: justify;
   }
 
-  footer span {
-    float: right;
+  footer div {
+    text-align: right;
   }
 
   footer img {
-    margin: auto 1em;
+    margin: auto 0.5em;
   }
 
   .last-img {
-    margin-right: 4em;
+    margin-right: 3em;
   }
 }
